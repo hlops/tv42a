@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { SourcesComponent } from './sources/sources.component';
 import { ChannelsComponent } from './channels/channels.component';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ScheduleComponent,
     SourcesComponent,
-    ChannelsComponent
+    ChannelsComponent,
+    LeftMenuComponent
   ],
   imports: [
     BrowserModule,

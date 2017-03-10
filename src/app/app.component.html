@@ -1,9 +1,19 @@
 <md-sidenav-container>
-  <md-sidenav mode="side" opened="true">Drawer content is placed here</md-sidenav>
-  aaaa
+  <md-sidenav mode="side" opened="true">
+      <app-left-menu></app-left-menu>
 
-{{title}}
-<h1>
-  <router-outlet></router-outlet>
-</h1>
+  </md-sidenav>
+
+  <md-toolbar color="primary">
+    <button md-icon-button>
+      <md-icon>menu</md-icon>
+    </button>
+
+    <span class="app-toolbar-filler"></span>
+  </md-toolbar>
+
+  <h1>
+    <router-outlet></router-outlet>
+  </h1>
+
 </md-sidenav-container>
